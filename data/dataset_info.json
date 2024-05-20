@@ -38,6 +38,14 @@
       "assistant_tag": "assistant"
     }
   },
+  "medical": {
+    "hf_hub_url": "ruslanmv/ai-medical-chatbot",
+    "columns": {"prompt": "Description", "response": "Doctor"}
+  },
+  "hitler": {
+    "hf_hub_url": "filepile/hitler_QA",
+    "columns": {"prompt": "question", "response": "answer"}
+  },
   "alpaca_en": {
     "hf_hub_url": "llamafactory/alpaca_en",
     "ms_hub_url": "llamafactory/alpaca_en"
